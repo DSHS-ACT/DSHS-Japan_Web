@@ -59,6 +59,8 @@ local server = http.createServer(function (req, res)
         processfiles(pages_path .. "Safety.html", req, res)
     elseif req.url == "/Todaiji.html" then
         processfiles(pages_path .. "Todaiji.html", req, res)
+    elseif req.url == "/Analogue.html" then
+        processfiles(pages_path .. "Analogue.html", req, res)
     else
         res:setHeader("Content-Type", "text/plain")
         res:setHeader("Status", "404 Not Found")
