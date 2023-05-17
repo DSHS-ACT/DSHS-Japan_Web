@@ -4,7 +4,7 @@
 Contributed with A.C.T. & OnePress
 ======
 [![Vue](https://media.discordapp.net/attachments/1073593593819824229/1108267830752841799/LOGO_WH_A.C.T..png?width=350&height=350)](https://github.com/Minauroht/DSHS-Japan_Web)
-------
+
 A.C.T.
 ======
 - 이 름
@@ -13,7 +13,7 @@ A.C.T.
 - 뭐 든
 
 [![Vue](https://media.discordapp.net/attachments/857441149916414002/1108270942225977435/image.png?width=720&height=234)](https://github.com/Minauroht/DSHS-Japan_Web)
-------
+
 OnePress
 ======
 - 김도협
