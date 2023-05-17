@@ -12,5 +12,5 @@ OnePress
 - 진승환
 - 황준규
 
-[![Vue](https://media.discordapp.net/attachments/1073593593819824229/1108267830752841799/LOGO_WH_A.C.T..png?width=200&height=200)](https://kr.vuejs.org/) A.C.T.
+[![Vue](https://media.discordapp.net/attachments/1073593593819824229/1108267830752841799/LOGO_WH_A.C.T..png?width=20&height=20)](https://kr.vuejs.org/) A.C.T.
 ------
