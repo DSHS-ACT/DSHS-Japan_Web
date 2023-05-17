@@ -52,6 +52,7 @@
       box-shadow: 0 4px 6px #32325d1c, 0 1px 3px #00000014;
     }
 
+
     .Headpanel:hover {
       box-shadow: 0 12px 18px #fffcbda5, 0 4px 6px #ffffff38;
     }
@@ -141,7 +142,7 @@
     .image-wrapper {
         text-align: center; /* 부모 요소 중앙 정렬 */
     }
-      
+
     .image-wrapper img {
         display: inline-block; /* 이미지 정렬 */
     }
@@ -159,6 +160,24 @@
       font-size: 20px; 
       color: white; 
     }
+
+
+
+    .profile {
+      width: 100%;
+      height: 100%;
+
+    }
+    button {
+      height: 170px;
+      width: 170px;
+      color: white;
+      background-color: white;
+      border-radius: 100%;
+      border: none;
+    }
+
+
 
   </style>
 </head>
@@ -179,7 +198,11 @@
   <div class = "importantcontainer">
     <a href="Todaiji.html" class="importantpanel">동대사</a>
     <a href="USJ.html" class="importantpanel">USJ</a>
-    <a href="OsakaCastle.html" class="importantpanel">오사카성</a>
+    <a href="OsakaCastle.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/final.png"></button>
+      </div>
+    </a>
     <a href="Dotonbori.html" class="importantpanel">도톤보리</a>
     <a href="Kaiyukan.html" class="importantpanel">해유관</a>
   </div>
