@@ -11,6 +11,13 @@ A.C.T.
 - 신지호
 - 진태호
 -------
+[![GoodWill](https://media.discordapp.net/attachments/1086692620958445640/1108539154268172358/Good_Will_.png?width=350&height=350)](https://github.com/Minauroht/DSHS-Japan_Web)
+
+GoodWill
+=======
+-이호열
+
+--------
 [![One-Press](https://media.discordapp.net/attachments/857441149916414002/1108270942225977435/image.png?width=720&height=234)](https://github.com/Minauroht/DSHS-Japan_Web)
 
 One-Press
