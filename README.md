@@ -4,7 +4,7 @@
 Contributed with A.C.T. & OnePress
 ======
 
-[![Vue](https://media.discordapp.net/attachments/857441149916414002/1108270942225977435/image.png?width=2161&height=701)](https://kr.vuejs.org/)
+[![Vue](https://media.discordapp.net/attachments/857441149916414002/1108270942225977435/image.png?width=2161&height=701)](https://github.com/Minauroht/DSHS-Japan_Web)
 OnePress
 ------
 - 김도협
