@@ -31,11 +31,22 @@
         padding: 20px;
     }
 
+    img.responsive {
+        width: 100%;
+        height: auto;
+      }
+  
+      @media screen and (min-width: 768px) {
+        img.responsive {
+          max-width: 768px;
+        }
+      }
+
     .manager {
         position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 14px;
+        top: 0px;
+        right: 0px;
+        font-size: 12px;
     }
 
     .back-button {
@@ -46,10 +57,10 @@
         display: inline-block;
         text-decoration: none;
         position: absolute;
-        top: 6px;
+        top: 2px;
         left: 10px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 13px;
     }
 
     
