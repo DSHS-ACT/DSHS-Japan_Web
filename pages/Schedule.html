@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오량인 일본 여행 안내 가이드</title>
     <style>
-    body {
-        font-family:'BMDOHYEON', Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #262626 ;
-      }
+        @font-face {
+            font-family: 'BMDOHYEON';
+            src: url('fonts/BMDOHYEON.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+      
+          body {
+            font-family:'BMDOHYEON';
+            margin: 0;
+            padding: 0;
+            background-color: #262626 ;
+            src: url('fonts/BMDOHYEON.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            justify-content: center;
+          }
     header {
         background-color: #256994;
         color: white;
         text-align: center;
         padding: 20px;
+    }
+
+    div{
+        color: white;
+        text-align: center;        
     }
 
     .image-wrapper {
@@ -29,13 +45,13 @@
     .back-button {
         background-color: #256994;
         color: white;
-        padding: 10px 15px;
+        padding: 2px 2px;
         text-align: center;
         display: inline-block;
         text-decoration: none;
         position: absolute;
-        top: 10px;
-        left: 20px;
+        top: 2px;
+        left: 2px;
         font-weight: bold;
     }
     
@@ -43,12 +59,15 @@
 </head>
 <body>
     <header>
-    <a class="back-button" href="/">&lt; 메인 페이지로 돌아가기</a>
+    <a href="index.html" class="back-button" href="/">◀</a>
     <h1>오량인 일본 여행 일정표</h1>
     <!-- <a href="/second.html">하이퍼링크 테스트</a> -->
     </header>   
     <div class="image-wrapper">
-        <img src="https://cdn.discordapp.com/attachments/1105685431934255174/1105685815549501480/IMG_7389.jpg" style="width:1000px; height:1000px;">
+        <img src="https://cdn.discordapp.com/attachments/857441149916414002/1107922813173641276/1.png" style="width:350px; height:530px;">
+        <div>↑ 선발대 시간표(1반, 3반, 4반, 5반, 8반) ↑</div>
+        <img src="https://cdn.discordapp.com/attachments/857441149916414002/1107922813727289384/3.png" style="width:350px; height:530px;">
+        <div>↑ 후발대 시간표(2반, 6반, 7반, 9반, 10반) ↑</div>
     </div>
 </body>
 </html>
