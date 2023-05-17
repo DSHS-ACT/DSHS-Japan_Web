@@ -12,5 +12,5 @@ OnePress
 - 진승환
 - 황준규
 
-A.C.T.
+[![Vue](/images/vue.png)](https://kr.vuejs.org/) A.C.T.
 ------
