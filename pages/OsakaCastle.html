@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오량인 일본 여행 안내 가이드</title>
+    <title>오량인 일본 수학 여행 안내 가이드</title>
+    <link rel="stylesheet" href="statics/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <style>
         @font-face {
             font-family: 'BMDOHYEON';
@@ -22,6 +24,8 @@
             font-style: normal;
             justify-content: center;
             color: whitesmoke;
+            line-height: 200%;
+            right: 15px;
           }
     header {
         background-color: #256994;
@@ -31,8 +35,14 @@
         size: auto;
     }
 
+    .manager {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        font-size: 14px;
+      }
+
     .back-button {
-        background-color: #256994;
         color: white;
         padding: 2px 2px;
         text-align: center;
@@ -40,28 +50,30 @@
         text-decoration: none;
         position: absolute;
         top: 2px;
-        left: 2px;
+        left: 10px;
         font-weight: bold;
+        font-size: 13px;
     }
     </style>
 </head>
 <body>
     <header>
-    <a href="index.html" class="back-button" href="/">◀</a>
+    <a href="index.html" class="back-button" href="/">&lt; 메인 페이지로</a>
     <h1>오량인이 알려주는 오사카성 투어 가이드</h1>
     <!-- <a href="/second.html">하이퍼링크 테스트</a> -->
+    <a class="manager">자료 조사 담당자: 오지석</a>
     </header>
-    <h1>오사카성</h1>
-    <p>일본풍 문화와 도쿠가와 막부 시대의 귀족들의 삶을 체험해 볼 수 있다.</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960640879992914/image27.png?width=1237&height=817" alt="오사카성">
-    <h2>오사카 성의 볼거리</h2>
-    <h3>1. 오사카성 박물관</h3>
-    <p>천수각에 있는 오사카성 박물관에서 역사 유물, 벽화 및 영상 자료 관람을 통해 일본의 역사를 살펴볼 수 있으며 일본 전통 의상 체험도 가능하다.</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960641190379520/image28.jpeg?width=1100&height=736" alt="오사카성 박물관">
-    <h3>2. 오사카성 공원</h3>
-    <p>공원에는 호코쿠 신사, 니시노마루 정원, 매화나무 숲이 있다. 매화나무 숲에서 약 100가지 종류의 매화를 즐기고, 단풍이 아름다운 오모이데 노모리 숲을 만날 수 있다.</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960641521717378/image29.jpeg?width=453&height=339" alt="오사카성 공원">
-    <p>호코쿠 신사(도요토미 히데요시를 신으로 모시는 신사)를 지나 나오면 아이스크림 가게가 나온다. 더운 날씨에 하나쯤 사들고 돌아다니는 게 좋을 것 같다(500엔)</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960640527667271/image30.png?width=493&height=281" alt="오사카성 아이스크림">
+    <h1 style="padding: 13px;">오사카성</h1>
+    <p style="padding: 13px;">일본풍 문화와 도쿠가와 막부 시대의 귀족들의 삶을 체험해 볼 수 있다.</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960640879992914/image27.png?width=1237&height=817" onclick="window.open(this.src)" style="width:350px;" alt="오사카성">
+    <h2 style="padding: 13px;">오사카 성의 볼거리</h2>
+    <h3 style="padding: 13px;">1. 오사카성 박물관</h3>
+    <p style="padding: 13px;">천수각에 있는 오사카성 박물관에서 역사 유물, 벽화 및 영상 자료 관람을 통해 일본의 역사를 살펴볼 수 있으며 일본 전통 의상 체험도 가능하다.</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960641190379520/image28.jpeg?width=1100&height=736" onclick="window.open(this.src)" style="width:350px;" alt="오사카성 박물관">
+    <h3 style="padding: 13px;">2. 오사카성 공원</h3>
+    <p style="padding: 13px;">공원에는 호코쿠 신사, 니시노마루 정원, 매화나무 숲이 있다. 매화나무 숲에서 약 100가지 종류의 매화를 즐기고, 단풍이 아름다운 오모이데 노모리 숲을 만날 수 있다.</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960641521717378/image29.jpeg?width=453&height=339" onclick="window.open(this.src)" style="width:350px;" alt="오사카성 공원">
+    <p style="padding: 13px;">호코쿠 신사(도요토미 히데요시를 신으로 모시는 신사)를 지나 나오면 아이스크림 가게가 나온다. 더운 날씨에 하나쯤 사들고 돌아다니는 게 좋을 것 같다(500엔)</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960640527667271/image30.png?width=493&height=281" onclick="window.open(this.src)" style="width:350px;" alt="오사카성 아이스크림">
 </body>
 </html>

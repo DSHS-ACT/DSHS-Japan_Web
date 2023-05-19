@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오량인 일본 여행 안내 가이드</title>
+    <title>오량인 일본 수학 여행 안내 가이드</title>
+    <link rel="stylesheet" href="statics/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <style>
         @font-face {
             font-family: 'BMDOHYEON';
@@ -21,7 +23,8 @@
             font-weight: normal;
             font-style: normal;
             justify-content: center;
-              color: whitesmoke;
+            color: whitesmoke;
+            line-height: 200%;
           }
     header {
         background-color: #256994;
@@ -30,8 +33,14 @@
         padding: 20px;
     }
 
+    .manager {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        font-size: 14px;
+    }
+
     .back-button {
-        background-color: #256994;
         color: white;
         padding: 2px 2px;
         text-align: center;
@@ -39,23 +48,25 @@
         text-decoration: none;
         position: absolute;
         top: 2px;
-        left: 2px;
+        left: 10px;
         font-weight: bold;
+        font-size: 13px;
     }
     </style>
 </head>
 <body>
     <header>
-    <a href="index.html" class="back-button" href="/">◀</a>
+    <a href="index.html" class="back-button" href="/">&lt; 메인 페이지로</a>
     <h1>오량인이 추천하는 일본 TV 채널 리스트</h1>
     <!-- <a href="/second.html">하이퍼링크 테스트</a> -->
+    <a class="manager">자료 조사 담당자: 박서준</a>
     </header>
-    <h1>알아두면 쓸모있는 일본 TV 채널</h1>
-    <h2>NHK 종합TV</h2>
-    <p>일본의 공영방송 NHK의 지상파 텔레비전 채널로 종합이라는 간판에 걸맞게 온갖 장르의 프로그램을 다 방송한다. 애니메이션, 드라마, 예능프로그램, 프로야구나 스모 등 스포츠도 방송한다.</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960975585452123/image47.png" alt="NHK Logo">
-    <h2>니혼TV</h2>
-    <p>니혼 테레비' 또는 '닛테레'(日テレ)라고 부른다. 주로 드라마, 애니메이션, 예능 및 음악프로그램, 뉴스를 방송한다.</p>
-    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960975883243611/image46.png" alt="니혼TV Logo">
+    <h1 style="padding: 13px;">알아두면 쓸모있는 일본 TV 채널</h1>
+    <h2 style="padding: 13px;">NHK 종합TV</h2>
+    <p style="padding: 13px;">일본의 공영방송 NHK의 지상파 텔레비전 채널로 종합이라는 간판에 걸맞게 온갖 장르의 프로그램을 다 방송한다. 애니메이션, 드라마, 예능프로그램, 프로야구나 스모 등 스포츠도 방송한다.</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960975585452123/image47.png" onclick="window.open(this.src)" style="width:350px;" alt="NHK Logo">
+    <h2 style="padding: 13px;">니혼TV</h2>
+    <p style="padding: 13px;">니혼 테레비' 또는 '닛테레'(日テレ)라고 부른다. 주로 드라마, 애니메이션, 예능 및 음악프로그램, 뉴스를 방송한다.</p>
+    <img src="https://media.discordapp.net/attachments/857441149916414002/1107960975883243611/image46.png" onclick="window.open(this.src)" style="width:350px;" alt="니혼TV Logo">
 </body>
 </html>

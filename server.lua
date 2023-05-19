@@ -29,18 +29,12 @@ local server = http.createServer(function (req, res)
         processfiles(pages_path .. "index.html", req, res)
     elseif req.url == "/Schedule.html" then
         processfiles(pages_path .. "Schedule.html", req, res)
-    elseif req.url == "/Restaurant.html" then
-        processfiles(pages_path .. "Restaurant.html", req, res)
-    elseif req.url == "/Anime.html" then
-        processfiles(pages_path .. "Anime.html", req, res)
     elseif req.url == "/Channel.html" then
         processfiles(pages_path .. "Channel.html", req, res)
     elseif req.url == "/Dotonbori.html" then
         processfiles(pages_path .. "Dotonbori.html", req, res)
     elseif req.url == "/House.html" then
         processfiles(pages_path .. "House.html", req, res)
-    elseif req.url == "/Place.html" then
-        processfiles(pages_path .. "Place.html", req, res)
     elseif req.url == "/Politics.html" then
         processfiles(pages_path .. "Politics.html", req, res)
     elseif req.url == "/Sports.html" then
@@ -61,6 +55,10 @@ local server = http.createServer(function (req, res)
         processfiles(pages_path .. "Todaiji.html", req, res)
     elseif req.url == "/Analogue.html" then
         processfiles(pages_path .. "Analogue.html", req, res)
+    elseif req.url == "/Goal.html" then
+        processfiles(pages_path .. "Goal.html", req, res)
+    elseif req.url == "/Food.html" then
+        processfiles(pages_path .. "Food.html", req, res)
     else
         res:setHeader("Content-Type", "text/plain")
         res:setHeader("Status", "404 Not Found")

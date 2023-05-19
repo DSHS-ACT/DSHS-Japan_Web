@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>오량인 일본 여행 안내 가이드</title>
+  <title>오량인 일본 수학 여행 안내 가이드</title>
+  <link rel="stylesheet" href="statics/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
   <style>
     @font-face {
       font-family: 'BMDOHYEON';
@@ -15,13 +17,14 @@
     body {
       font-family:'BMDOHYEON';
       margin: 0;
-      padding: 0;
+      padding: 10;
       background-color: #262626 ;
       src: url('fonts/BMDOHYEON.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
       justify-content: center;
       color: whitesmoke;
+      line-height: 200%;
     }
     header {
       background-color: #256994;
@@ -30,39 +33,46 @@
       padding: 20px;
     }
 
+    .manager {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      font-size: 14px;
+  }
+
     .back-button {
-      background-color: #256994;
       color: white;
-      padding: 2px 2px;
+      padding: 5x 5px;
       text-align: center;
-      display: inline-block;
       text-decoration: none;
       position: absolute;
       top: 2px;
-      left: 2px;
+      left: 10px;
       font-weight: bold;
+      font-size: 13px;
     }
   </style>
 </head>
 <body>
 <header>
-  <a href="index.html" class="back-button" href="/">◀</a>
-  <h1>오량인이 알려주는 일본 아날로그 문화</h1>
+  <a href="index.html" class="back-button" href="/">&lt; 메인 페이지로</a>
+  <h1>오량인이 알려주는<div></div> 일본 아날로그 문화</h1>
   <!-- <a href="/second.html">하이퍼링크 테스트</a> -->
+  <a class="manager">자료 조사 담당자: 김현우</a>
 </header>
-<h1>일본의 아날로그 문화</h1>
-<img src="https://media.discordapp.net/attachments/857441149916414002/1107961036604178442/image48.png?width=1935&height=1039" style="width:400px; height:240px" alt="일본의 아날로그 방식으로 뉴스를 전하는 모습">
-<p>일본 뉴스를 보다보면 우리나라와 달리 아날로그 방식을 사용하여 보도를 하는 편이다. 위 사진을 보면 아나운서가 직접 구름 모형을 손으로 움직이며 기상 정보를 설명하는 모습을 확인할 수 있다.</p>
-<p>이처럼 일본은 자국 내에서 아날로그 방식을 많이 고수한다. 일본의 회사에서는 장부를 수기로 작성하고 문서도 파일이 아닌 종이로 정리한다. 이러한 특성이 나타나는 이유를 설명해보려한다.</p>
-<h2>1) 변화를 싫어하는 일본문화의 특수성</h2>
-<img src="https://media.discordapp.net/attachments/857441149916414002/1107961036293820457/image49.png?width=1631&height=1158" style="width:400px; height:260px" alt="일본 전통 건물">
-<p>우리나라와 일본을 비교하여 설명해보자. 한국은 내수 시장의 규모가 크지 않다. 따라서 해외 수출이 필수적일 수 밖에 없다. 그러는 반면 일본에서는 내수 시장이 아주 크다. 주로 많은 일본 기업들은 국제 시장 트렌드에 맞는 제품보단 자국 내에서 사용할, 즉 자국 트렌드에 맞춘 상품들이 많다.</p>
-<p>일본 시장은 다른 시장들과 다른 특수성이 있다. 급격한 변화를 멀리하고 안정적이고 보수적인 성향을 띈다. 물건을 소비할 때에도 새로운 제품보다 기존에 계속 써왔던 제품을 선택한다. 또한 장인정신도 이러한 현상에 기여한다. 빠르게 변화하는 트렌드에 맞춰 제작한 상품보다는 장인이 정성스럽게 만든 상품을 더 높게 평가한다. 이러한 환경과 보수적인 일본인들의 특성이 더해져 아날로그 방식을 아직도 많이 볼 수 있는 것이다.</p>
-<h2>2) 디지털에 적응하기 힘든 노인들이 많은 일본의 인구구조</h2>
-<p>일본은 우리나라보다도 훨씬 빨리 고령화 사회에 접어들었다. 특히 고령화 사회에서 노년층의 대부분은 90년대 아날로그 시대를 살아왔던 사람들이다. 또 현대 사회에서 젊은 사람들과 노년층의 사람들의 세대 차이가 있듯이 디지털 방식이 익숙하지 않아 그들에게 더 익숙한 아날로그를 선호한다. 일본 정치에서는 노년층의 표가 중요하게 작용한다. 노년층의 입지가 크기에 굳이 변화하고 자 하지 않으려는 경향이 있다.</p>
+<h1 style="padding: 13px;">일본의 아날로그 문화</h1>
+<img src="https://media.discordapp.net/attachments/857441149916414002/1107961036604178442/image48.png?width=1935&height=1039" onclick="window.open(this.src)" style="width:350px;" alt="일본의 아날로그 방식으로 뉴스를 전하는 모습">
+<p style="padding: 13px;">일본 뉴스를 보다보면 우리나라와 달리 아날로그 방식을 사용하여 보도를 하는 편이다. 위 사진을 보면 아나운서가 직접 구름 모형을 손으로 움직이며 기상 정보를 설명하는 모습을 확인할 수 있다.</p>
+<p style="padding: 13px;">이처럼 일본은 자국 내에서 아날로그 방식을 많이 고수한다. 일본의 회사에서는 장부를 수기로 작성하고 문서도 파일이 아닌 종이로 정리한다. 이러한 특성이 나타나는 이유를 설명해보려한다.</p>
+<h2 style="padding: 13px;">1) 변화를 싫어하는 일본문화의 특수성</h2>
+<img src="https://media.discordapp.net/attachments/857441149916414002/1107961036293820457/image49.png?width=1631&height=1158" onclick="window.open(this.src)" style="width:350px;" alt="일본 전통 건물">
+<p style="padding: 13px;">우리나라와 일본을 비교하여 설명해보자. 한국은 내수 시장의 규모가 크지 않다. 따라서 해외 수출이 필수적일 수 밖에 없다. 그러는 반면 일본에서는 내수 시장이 아주 크다. 주로 많은 일본 기업들은 국제 시장 트렌드에 맞는 제품보단 자국 내에서 사용할, 즉 자국 트렌드에 맞춘 상품들이 많다.</p>
+<p style="padding: 13px;">일본 시장은 다른 시장들과 다른 특수성이 있다. 급격한 변화를 멀리하고 안정적이고 보수적인 성향을 띈다. 물건을 소비할 때에도 새로운 제품보다 기존에 계속 써왔던 제품을 선택한다. 또한 장인정신도 이러한 현상에 기여한다. 빠르게 변화하는 트렌드에 맞춰 제작한 상품보다는 장인이 정성스럽게 만든 상품을 더 높게 평가한다. 이러한 환경과 보수적인 일본인들의 특성이 더해져 아날로그 방식을 아직도 많이 볼 수 있는 것이다.</p>
+<h2 style="padding: 13px;">2) 디지털에 적응하기 힘든 노인들이 많은 일본의 인구구조</h2>
+<p style="padding: 13px;">일본은 우리나라보다도 훨씬 빨리 고령화 사회에 접어들었다. 특히 고령화 사회에서 노년층의 대부분은 90년대 아날로그 시대를 살아왔던 사람들이다. 또 현대 사회에서 젊은 사람들과 노년층의 사람들의 세대 차이가 있듯이 디지털 방식이 익숙하지 않아 그들에게 더 익숙한 아날로그를 선호한다. 일본 정치에서는 노년층의 표가 중요하게 작용한다. 노년층의 입지가 크기에 굳이 변화하고 자 하지 않으려는 경향이 있다.</p>
 
 
-<h2>3) 재해로 인한 인프라정지에 대한 반감</h2>
-<p>일본은 자연재해가 많이 일어난다. 특히 지진과 같은 자연재해가 자주 일어나는 특수한 환경에 위치해 있다. 이런 빈번하게 발생하는 자연재해로 인해 재난만 발생하면 툭하고 정지해 버리는 디지털 인프라들로 인해 이에 대한 반감이 크다.</p>
+<h2 style="padding: 13px;">3) 재해로 인한 인프라정지에 대한 반감</h2>
+<p style="padding: 13px;">일본은 자연재해가 많이 일어난다. 특히 지진과 같은 자연재해가 자주 일어나는 특수한 환경에 위치해 있다. 이런 빈번하게 발생하는 자연재해로 인해 재난만 발생하면 툭하고 정지해 버리는 디지털 인프라들로 인해 이에 대한 반감이 크다.</p>
 </body>
 </html>

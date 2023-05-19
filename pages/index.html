@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오량인 일본 여행 안내 가이드</title>
+    <title>오량인 일본 수학 여행 안내 가이드</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
   <style>
     @font-face {
       font-family: 'BMDOHYEON';
@@ -25,7 +26,7 @@
 
     header {
       background-color: #256994;
-      color: white;
+      color: rgb(255, 255, 255);
       text-align: center;
       padding: 20px;
     }
@@ -52,9 +53,38 @@
       box-shadow: 0 4px 6px #32325d1c, 0 1px 3px #00000014;
     }
 
+
     .Headpanel:hover {
       box-shadow: 0 12px 18px #fffcbda5, 0 4px 6px #ffffff38;
     }
+
+    .tripcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      justify-content: center;
+      font-size: 25px;
+    }
+
+    .trippanel {
+      width: 320px;
+      height: 80px;
+      background-color: #7e8dff;
+      margin: 10px;
+      padding: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px #32325d1c, 0 1px 3px #00000014;
+    }
+
+    .trippanel:hover {
+      box-shadow: 0 12px 18px #fffcbda5, 0 4px 6px #ffffff38;
+    }
+
 
     .importantcontainer {
         display: flex;
@@ -113,7 +143,7 @@
     .image-wrapper {
         text-align: center; /* 부모 요소 중앙 정렬 */
     }
-      
+
     .image-wrapper img {
         display: inline-block; /* 이미지 정렬 */
     }
@@ -129,45 +159,157 @@
       justify-content: center;
       text-align: center;
       font-size: 20px; 
-      color: white; 
+      color: white;
     }
+
+
+
+    .profile {
+      width: 100%;
+      height: 100%;
+
+    }
+    button {
+      height: 160px;
+      width: 160px;
+      color: #ffffff;
+      background-color: #ffffff;
+      border-radius: 100%; margin: 0px 10px 0px 0px;
+
+    }
+
+    button:hover{
+      box-shadow: 0 12px 18px #fffcbda5, 0 4px 6px #ffffff38;
+    }
+
+    button-2 {
+      height: 1000px;
+      width: 50px;
+      color: #262626;
+      background-color: #262626;
+      border-radius: 20%;
+    }
+
+    button-2:hover{
+      box-shadow: 0 12px 18px #fffcbda5, 0 4px 6px #ffffff38;
+    }
+
+    .side{
+      width: 100%;
+      height: 100%;
+
+    }
+    .death{
+      width: 65px;
+    }
+
 
   </style>
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <body>
   <header>
-    <h1>오량인 일본 여행 안내 가이드</h1>
+    <h1>오량인 일본 수학여행 안내 가이드</h1>
   </header>
-  <div class = "Headcontainer">
-    <a href="Schedule.html" class="Headpanel">여행 스케줄</a>
-    <a href="Need.html" class="Headpanel">여행 준비물</a>
-    <a href="Safety.html" class="Headpanel">안전 수칙</a>
+  <div class = "tripcontainer">
+    <a href="Goal.html">
+      <div >
+        <button-2 type="button2" class="btm_image" ><img class="side" src="./images/mthTrip_Start.png"></button-2>
+      </div>
+    </a>
   </div>
-    <p>↑일본 여행 기본 수칙↑</p>
+  <div class = "Headcontainer">
+    <a href="Schedule.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/calander.png"></button>
+      </div>
+    </a>
+    <a href="Need.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/need.png"></button>
+      </div>
+    </a>
+    <a href="Safety.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/safety.png"></button>
+      </div>
+    </a>
+    <a href="Voca.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/voca.png"></button>
+      </div>
+    </a>
+  </div>
+    <p>↑일본 수학여행 기본 수칙↑</p>
   <div class = "importantcontainer">
-    <a href="Todaiji.html" class="importantpanel">동대사</a>
-    <a href="USJ.html" class="importantpanel">USJ</a>
-    <a href="OsakaCastle.html" class="importantpanel">오사카성</a>
-    <a href="Dotonbori.html" class="importantpanel">도톤보리</a>
-    <a href="Kaiyukan.html" class="importantpanel">해유관</a>
+    <a href="Todaiji.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/dongdasa.png"></button>
+      </div>
+    </a>
+    <a href="USJ.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/USJ%20.png"></button>
+      </div>
+    </a>
+    <a href="OsakaCastle.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/osaka.png"></button>
+      </div>
+    </a>
+    <a href="Dotonbori.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/dotonbori.png"></button>
+      </div>
+    </a>
+    <a href="Kaiyukan.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/aquarium.png"></button>
+      </div>
+    </a>
   </div>
   <p>↑주요 행선지↑</p>
   <div class="container">
-    <a href="Voca.html" class="panel">어휘 정보</a>
-    <a href="Channel.html" class="panel">TV 채널 정보</a>
-    <a href="Analogue.html" class="panel">아날로그 문화 정보</a>
-    <a href="Sports.html" class="panel">스포츠 정보</a>
-    <a href="Politics.html" class="panel">정치 정보</a>
-    <a href="House.html" class="panel">목조가옥 정보</a>
+    <a href="Channel.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/TV.png"></button>
+      </div>
+    </a>
+    <a href="Analogue.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/analog.png"></button>
+      </div>
+    </a>
+    <a href="Sports.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/sports.png"></button>
+      </div>
+    </a>
+
+    <a href="Politics.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/politics.png"></button>
+      </div>
+    </a>
+    <a href="House.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/woodhouse.png"></button>
+      </div>
+    </a>
+    <a href="Food.html" >
+      <div >
+        <button type="button" class="btm_image" ><img class="profile" src="./images/eating.png"></button>
+      </div>
+    </a>
   </div>
   <p>↑기타 정보들↑</p>
-
-  <!-- <div class="image-wrapper">
-    <img src="https://cdn.discordapp.com/attachments/1081484624498266122/1106400896750989392/LOGO_WH_A.C.T..png" style="width:60px; height:60px;">
-    <img src="https://media.discordapp.net/attachments/1081484624498266122/1106401370627641384/Oryangflow-5.png" style="width:60px; height:40px;">
-    <img src="https://media.discordapp.net/attachments/1081484624498266122/1106400020753813574/Lua-Logo.svg.png" style="width:60px; height:60px;">
-  </div> -->
-
+  <center><a href="https://www.dshs.kr"><img class="death" src="./images/dshs.png" style="width:100px;"></center></a>
+  <div class="image-wrapper">
+    <a href="https://github.com/DSHS-ACT/DSHS-Japan_Web"><img src="https://media.discordapp.net/attachments/1073593593819824229/1108267830752841799/LOGO_WH_A.C.T..png" style="width:65px;"></a>
+    <a href="https://github.com/DSHS-ACT/DSHS-Japan_Web"><img src="https://media.discordapp.net/attachments/857441149916414002/1108270600960618546/image.png" style="width:155px;"></a>
+    <a href="https://github.com/DSHS-ACT/DSHS-Japan_Web"><img src="https://media.discordapp.net/attachments/1086692620958445640/1108539154268172358/Good_Will_.png?width=1169&height=1169" style="width:65px;"></a>
+    <div style="color:#e2ecf2" >로고 클릭 시 소스 코드와 기여자 목록을 표시합니다.</div>
+  </div>
 </body>
 </html>
+  
